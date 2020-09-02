@@ -1,0 +1,33 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.fr.monsantiane",
+  "serialNumber" : "1",
+  "teamIdentifier" : "FN685U54F7",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "organizationName" : "Santiane",
+  "description" : "Organic Produce Loyalty Card",
+  "logoText" : "Carte de Tiers payant",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(243, 146, 0)",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "storeCard" : {
+    "primaryFields" : [
+      {
+        "key" : "titre",
+        "label" : "MonSantiane",
+        "value" : "",
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "identifiants",
+        "label" : "Johann Bernard",
+        "value" : "Numéro de carte"
+      }
+    ]
+  }
+}
