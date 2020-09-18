@@ -22,18 +22,6 @@
         "changeMessage" : "nom"
       },
     ],
-    "secondaryFields" : [
-      {
-        "key" : "amc",
-        "label" : "Numéro AMC",
-        "value" : "xxxxxxxxxx"
-      },
-      {
-        "key" : "teletransmission",
-        "label" : "N° de télétransmission",
-        "value" : "xxxxxxxxxx"
-      }
-    ],
     "auxiliaryFields" : [
       {
         "key" : "n_ss",
@@ -54,6 +42,18 @@
         "key" : "right",
         "label" : "VOS DROITS",
         "value" : "retourner"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "amc",
+        "label" : "Numéro AMC",
+        "value" : "xxxxxxxxxx"
+      },
+      {
+        "key" : "teletransmission",
+        "label" : "N° de télétransmission",
+        "value" : "xxxxxxxxxx"
       }
     ],
     "backFields" : [
