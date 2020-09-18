@@ -1,0 +1,77 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.fr.monsantiane",
+  "serialNumber" : "1",
+  "teamIdentifier" : "FN685U54F7",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "organizationName" : "Santiane",
+  "description" : "Carte de tiers payant",
+  "foregroundColor" : "rgb(0, 0, 0)",
+  "backgroundColor" : "rgb(255, 255, 255)",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "storeCard" : {
+    "headerFields" : [
+      { 
+        "label" : "xxxxxxxxx",
+        "key" : "n_adherent",
+        "value" : "M. Pierre-Alain de Malleray",
+        "changeMessage" : "nom"
+      },
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "amc",
+        "label" : "Numéro AMC",
+        "value" : "xxxxxxxxxx"
+      },
+      {
+        "key" : "teletransmission",
+        "label" : "N° de télétransmission",
+        "value" : "xxxxxxxxxx"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "n_ss",
+        "label" : "N°SS",
+        "value" : "xxxxxxxxxx"
+      },
+      {
+        "key" : "begin_date",
+        "label" : "VAL. DU",
+        "value" : "01/01/2020"
+      },
+      {
+        "key" : "end_date",
+        "label" : "AU",
+        "value" : "31/12/2020"
+      },
+      {
+        "key" : "right",
+        "label" : "VOS DROITS",
+        "value" : "retourner"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "back",
+        "label" : "",
+        "value" : "Numéro AMC: xxxxxxxxxx\r\nN° de télétransmission: xxxxxxxxxx\r\nType de convention: VM\r\nCSR:\r\nN° d'assuré: xxxxxxxxxx\r\n\r\nSTE 8 DRE.VM.001@viamedis.rss.fr\r\nSV-DRE-TP\r\n\r\nContactez Viamedis sur www.viamedis.net\r\n\r\n0825 076 076\r\n"
+      },
+      {
+        "key" : "back2",
+        "label" : "",
+        "value" : "👨‍👩‍👦‍👦 CONTRAT ET BÉNÉFICIAIRE(S)\r\nDroits ouverts du 01/01/2020 au 31/12/2020\r\n\r\nBénéficiaire(s) :\r\nM. Pierre-Alain de Malleray né(e) le 17/04/1977\r\nxxxxxxxxxx - Rg1 - Droits ouverts du 01/01/2020 au 31/12/2020"
+      },
+      {
+        "key" : "back3",
+        "label" : "Prise en charge",
+        "value" : "Hospitalisation : \r\n- Chirurgie: 100% du TM\r\n- Médecine: 100% du TM\r\n- Forfait journalier: 100% du forfait\r\n- Forfait PAT/PAS: 100% du forfait\r\n\r\nPharmacie à 65%: 100% du TM\r\nPharmacie à 30%: 100% du TM\r\nPharmacie à 15%: 100% du TM\r\nActes techniques: 100% du TM\r\nLaboratoire: 100% du TM\r\nRadiologie: 100% du TM\r\nAuxiliaires médicaux: 100% du TM\r\nSoins dentaires: 100% du TM\r\nConsultations: 100% du TM\r\nSoins externes: 100% du TM\r\nTransport: 100% du TM\r\n"
+      },
+    ]
+  }
+}
